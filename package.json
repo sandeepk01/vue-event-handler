@@ -6,8 +6,8 @@
   "main": "dist/index.js",
   "author": "Sandeep K",
   "repository": {
-    "type": "npm",
-    "url": "https://www.npmjs.com/~sandeepk01"
+    "type": "git",
+    "url": "https://github.com/sandeepk01/vue-eventbus.git"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
@@ -15,8 +15,7 @@
   },
   "keywords": [
     "Vue",
-    "Events",
-	"Vue 2 event handling"
+    "Events"
   ],
   "scripts": {
     "compile": "babel --presets=es2015 -d dist src",
