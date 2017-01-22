@@ -1,0 +1,25 @@
+{
+  "name": "vue-eventbus",
+  "version": "1.0.0",
+  "description": "Global event bus for Vue 1 and Vue 2. Fork of https://github.com/cklmercer/vue-events",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "author": "Sandeep K",
+  "repository": {
+    "type": "npm",
+    "url": "https://www.npmjs.com/~sandeepk01"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "keywords": [
+    "Vue",
+    "Events",
+	"Vue 2 event handling"
+  ],
+  "scripts": {
+    "compile": "babel --presets=es2015 -d dist src",
+    "prepublish": "npm run compile"
+  }
+}
