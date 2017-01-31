@@ -8,13 +8,13 @@ Works with both `Vue 1.0` & `Vue 2.0`.
 
 ##### 1.) Install package via NPM
 ```
-npm install vue-events
+npm install vue-event-handler
 ```
 
 ##### 2.) Install plugin within project.
 ```
 import Vue from 'vue';
-import VueEvents from 'vue-events';
+import VueEvents from 'vue-event-handler';
 
 Vue.use(VueEvents)
 ```
@@ -23,7 +23,7 @@ or
 
 ```
 window.Vue = require('vue');
-require('vue-events');
+require('vue-event-handler');
 ```
 
 ## Usage
