@@ -87,9 +87,9 @@ There is a method to unregister an event listener whenever you destroy a Vue com
 new Vue({
 	beforeDestroy () {
 		// Option #1
-		this.$events.off('testEvent', eventData => console.log(eventData));
+		this.$events.off('testEvent');
 		// Option #2
-		this.$events.unlisten('testEvent', eventData => console.log(eventData));
+		this.$events.unlisten('testEvent');
 	}
 })
 ```
