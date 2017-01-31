@@ -1,5 +1,3 @@
-# vue-events
-
 A [Vue.js](http://vuejs.org) plugin that provides a global event bus and a couple helper methods.
 
 Works with both `Vue 1.0` & `Vue 2.0`.
