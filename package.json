@@ -1,6 +1,6 @@
 {
   "name": "vue-event-handler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Global event bus for Vue 1 and Vue 2.",
   "license": "MIT",
   "main": "dist/index.js",
